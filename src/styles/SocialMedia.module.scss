@@ -1,0 +1,11 @@
+.socialmedia{
+    &__links{
+      a{
+        font-size: 14px;
+        padding: 0 10px;
+        color: var(--color-links);
+        &:not(:last-child) {
+      }
+      }
+  }
+}

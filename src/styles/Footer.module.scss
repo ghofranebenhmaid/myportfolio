@@ -1,0 +1,22 @@
+.footer {
+  margin-top: 4rem;
+
+  .borderTop {
+    border-top: 0.5px solid var(--color-background);
+    // margin: 1.5rem 0;
+  }
+  &__centent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+    p {
+      font-size: 0.9rem;
+    }
+    @media (max-width: 799px) {
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
