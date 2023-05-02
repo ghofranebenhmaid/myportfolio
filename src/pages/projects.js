@@ -129,7 +129,7 @@ const projects = ({ projects, router }) =>
                             // height={ 300 }
                             layout='fill'
                             objectFit='cover'
-                            // placeholder='blur'
+                            // placeholder='blur'  
                             quality={ 100 }
                             priority
                           />
